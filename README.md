@@ -13,7 +13,8 @@ OUTPUT FORMAT :
 First line denotes the node number with maximum weight node.
 Sample Input :
 23
-4 4 1 4 13 8 8 8 0 8 14 9 15 11 -1 10 15 22 22 22 22 22 21
+4 4 1 4 13 8 8 8 0 8 14 9 15 11 -1 10 15 22 22 22 22 22 21 
+
 Sample Output :
 22
 7
@@ -53,8 +54,10 @@ The first line contains the number of cells N.
 The second line has a list of N values of the edge[ ] array, where edge[i] conatins the cell number that can be reached from cell 'i' in one step. edge[i] is -1 if the ith doesn't have an exit.
 Third line for each testcase contains two cell numbers whose nearest meeting cell needs to be found. (return -1 if there is no meeting cell.
 OUTPUT FORMAT :
-Output a single line that denotes the nearest meeting cell (NMC).
+Output a single line that denotes the nearest meeting cell (NMC). 
+
 Sample Input :
+
 23
 4 4 1 4 13 8 8 8 0 8 14 9 15 11 -1 10 15 22 22 22 22 22 21
 9 2
